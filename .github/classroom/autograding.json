@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "applicationLoads",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#applicationLoads test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "loggingMultipleRequests",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#loggingMultipleRequests test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 7
+    },
+    {
+      "name": "speedTest",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#speedTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 120,
+      "points": 7
+    },
+    {
+      "name": "authenticateAdmin",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#authenticateAdmin test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "authenticateEmployee",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#authenticateEmployee test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "authenticatePremium",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#authenticatePremium test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "moviesWithAuthHeader",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#moviesWithAuthHeader test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "moviesNoAuthHeader",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#moviesNoAuthHeader test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "moviesAuthHeaderWithNoValue",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#moviesAuthHeaderWithNoValue test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "moviesAuthHeaderWithNoBearer",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#moviesAuthHeaderWithNoBearer test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "billingWithAuthHeader",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#billingWithAuthHeader test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "billingNoAuthHeader",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#billingNoAuthHeader test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "billingAuthHeaderWithNoValue",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#billingAuthHeaderWithNoValue test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "billingAuthHeaderWithNoBearer",
+      "setup": "",
+      "run": "mvn -DDB_USERNAME=root -DDB_PASSWORD=\"\" -Dtest=GatewayServiceTest#billingAuthHeaderWithNoBearer test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    }
+  ]
+}
